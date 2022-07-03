@@ -108,9 +108,9 @@
     <link href="https://blog.randomench.top/article/140d6ed8c76c/"/>
     <id>https://blog.randomench.top/article/140d6ed8c76c/</id>
     <published>2021-12-27T09:15:24.000Z</published>
-    <updated>2022-07-03T08:00:41.872Z</updated>
+    <updated>2022-07-03T08:03:19.820Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="序-3">序</h3><p>众所周知Apex在Steam上进行了锁国区，国内地区无法获取，不过办法总比困难多。<br>网上大多数教程使用加速器入库，不想注册账号的可以看看这个。</p><span id="more"></span><h3 id="步骤">步骤</h3><p class="div-border left red">方法可能已经不可用</p><div class="tabs" id="apex"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#apex-1">方法一</button></li><li class="tab"><button type="button" data-href="#apex-2">方法二</button></li><li class="tab"><button type="button" data-href="#apex-3">方法三</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="apex-1"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理 <br>2.使用 现代 浏览器登录网页 Steam：<a href="https://store.steampowered.com">https://store.steampowered.com</a> <br>3.添加任意一款 付费 游戏到购物车 <br>4.打开 Steam 购物车：<a href="https://store.steampowered.com/cart">https://store.steampowered.com/cart</a> <br>5.在商品右上角找到 国家/地区 选择不是中国的选项<br>6.转换成功后，新建空白页访问：<a href="https://store.steampowered.com/account/licenses">https://store.steampowered.com/account/licenses</a> 键盘按下 F12 打开开发者工具<br>7.转到 Console/控制台 选项，输入下列代码\</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">jQuery.<span class="title function_">post</span>(<span class="string">&#x27;//store.steampowered.com/checkout/addfreelicense&#x27;</span>, &#123;</span><br><span class="line">    <span class="attr">action</span>: <span class="string">&#x27;add_to_cart&#x27;</span>,</span><br><span class="line">    <span class="attr">sessionid</span>: g_sessionID,</span><br><span class="line">    <span class="attr">subid</span>: <span class="number">401407</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>8.切换至 Network/网络 选项卡，找到一条名为 addfreelicense 的请求记录<br>9.回到 Steam 客户端，“库”内已经有了 Apex Legends 了，安装即可<br>10.最后！！！一定要记得回到购物车界面，把国家/地区切回至原来的国家</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="apex-2"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理<br>2.使用 现代 浏览器登录网页 Steam：<a href="https://store.steampowered.com">https://store.steampowered.com</a><br>3.添加任意一款 付费 游戏到购物车<br>4.打开 Steam 购物车：<a href="https://store.steampowered.com/cart">https://store.steampowered.com/cart</a><br>5.在商品右上角找到 国家/地区 选择不是中国的选项<br>6.转换成功后，新建空白页访问：<a href="https://store.steampowered.com/app/1172470/apex">https://store.steampowered.com/app/1172470/apex</a> 键盘按下 F12 打开开发者工具<br>7.转到 Console/控制台 选项，输入下列代码</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">AddFreeLicense</span>(<span class="number">401407</span>);</span><br></pre></td></tr></table></figure><p>8.切换至 Network/网络 选项卡，找到一条名为 addfreelicense 的请求记录<br>9.回到 Steam 客户端，“库”内已经有了 Apex Legends 了，安装即可<br>10.最后！！！一定要记得回到购物车界面，把国家/地区切回至原来的国家</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="apex-3"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理<br>2.退出 Steam 重新登陆<br>3.按下 <code>win+r</code> 快捷键呼出运行窗口输入以下代码</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">steam://install/1172470</span><br></pre></td></tr></table></figure><p>8.入库成功</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+    <content type="html"><![CDATA[<h3 id="序-3">序</h3><p>众所周知Apex在Steam上进行了锁国区，国内地区无法获取，不过办法总比困难多。<br>网上大多数教程使用加速器入库，不想注册账号的可以看看这个。</p><span id="more"></span><h3 id="步骤">步骤</h3><p class="div-border left red">部分方法可能已经不可用</p><div class="tabs" id="apex"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#apex-1">方法一</button></li><li class="tab"><button type="button" data-href="#apex-2">方法二</button></li><li class="tab"><button type="button" data-href="#apex-3">方法三</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="apex-1"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理 <br>2.使用 现代 浏览器登录网页 Steam：<a href="https://store.steampowered.com">https://store.steampowered.com</a> <br>3.添加任意一款 付费 游戏到购物车 <br>4.打开 Steam 购物车：<a href="https://store.steampowered.com/cart">https://store.steampowered.com/cart</a> <br>5.在商品右上角找到 国家/地区 选择不是中国的选项<br>6.转换成功后，新建空白页访问：<a href="https://store.steampowered.com/account/licenses">https://store.steampowered.com/account/licenses</a> 键盘按下 F12 打开开发者工具<br>7.转到 Console/控制台 选项，输入下列代码\</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">jQuery.<span class="title function_">post</span>(<span class="string">&#x27;//store.steampowered.com/checkout/addfreelicense&#x27;</span>, &#123;</span><br><span class="line">    <span class="attr">action</span>: <span class="string">&#x27;add_to_cart&#x27;</span>,</span><br><span class="line">    <span class="attr">sessionid</span>: g_sessionID,</span><br><span class="line">    <span class="attr">subid</span>: <span class="number">401407</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>8.切换至 Network/网络 选项卡，找到一条名为 addfreelicense 的请求记录<br>9.回到 Steam 客户端，“库”内已经有了 Apex Legends 了，安装即可<br>10.最后！！！一定要记得回到购物车界面，把国家/地区切回至原来的国家</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="apex-2"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理<br>2.使用 现代 浏览器登录网页 Steam：<a href="https://store.steampowered.com">https://store.steampowered.com</a><br>3.添加任意一款 付费 游戏到购物车<br>4.打开 Steam 购物车：<a href="https://store.steampowered.com/cart">https://store.steampowered.com/cart</a><br>5.在商品右上角找到 国家/地区 选择不是中国的选项<br>6.转换成功后，新建空白页访问：<a href="https://store.steampowered.com/app/1172470/apex">https://store.steampowered.com/app/1172470/apex</a> 键盘按下 F12 打开开发者工具<br>7.转到 Console/控制台 选项，输入下列代码</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">AddFreeLicense</span>(<span class="number">401407</span>);</span><br></pre></td></tr></table></figure><p>8.切换至 Network/网络 选项卡，找到一条名为 addfreelicense 的请求记录<br>9.回到 Steam 客户端，“库”内已经有了 Apex Legends 了，安装即可<br>10.最后！！！一定要记得回到购物车界面，把国家/地区切回至原来的国家</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="apex-3"><p>1.用加速器加速 Steam 国外地区，或梯子戳开全局代理<br>2.退出 Steam 重新登陆<br>3.按下 <code>win+r</code> 快捷键呼出运行窗口输入以下代码</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">steam://install/1172470</span><br></pre></td></tr></table></figure><p>8.入库成功</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
     
     
     <summary type="html">&lt;h3 id=&quot;序-3&quot;&gt;序&lt;/h3&gt;
@@ -122,9 +122,9 @@
     <category term="游戏" scheme="https://blog.randomench.top/categories/%E6%B8%B8%E6%88%8F/"/>
     
     
-    <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
-    
     <category term="教程" scheme="https://blog.randomench.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -174,13 +174,13 @@
     
     <category term="工具" scheme="https://blog.randomench.top/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="网页" scheme="https://blog.randomench.top/tags/%E7%BD%91%E9%A1%B5/"/>
-    
     <category term="Galgame" scheme="https://blog.randomench.top/tags/Galgame/"/>
     
-    <category term="音游" scheme="https://blog.randomench.top/tags/%E9%9F%B3%E6%B8%B8/"/>
-    
     <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="网页" scheme="https://blog.randomench.top/tags/%E7%BD%91%E9%A1%B5/"/>
+    
+    <category term="音游" scheme="https://blog.randomench.top/tags/%E9%9F%B3%E6%B8%B8/"/>
     
   </entry>
   
@@ -207,11 +207,11 @@
     <category term="游戏" scheme="https://blog.randomench.top/categories/%E6%B8%B8%E6%88%8F/"/>
     
     
+    <category term="教程" scheme="https://blog.randomench.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="Galgame" scheme="https://blog.randomench.top/tags/Galgame/"/>
     
     <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-    <category term="教程" scheme="https://blog.randomench.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
