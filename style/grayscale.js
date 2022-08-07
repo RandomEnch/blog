@@ -1,5 +1,18 @@
 if(PublicSacrificeDay()){
   document.getElementsByTagName("html")[0].setAttribute("style","filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");
+console.log(`
+  4月4日 新冠肺炎哀悼日，清明节
+  4月14日，青海玉树地震(2010年)
+  5月12日，四川汶川地震(2008年)
+  7月7日,七七事变 又称卢沟桥事变(1937年)
+  8月7日，甘肃舟曲特大泥石流(2010年)
+  8月14日，世界慰安妇纪念日
+  9月9日，毛主席逝世(1976年)
+  9月18日，九一八事变(1931年)
+  9月30日，烈士纪念日
+  10月25日，抗美援朝纪念日(1950年)
+  12月13日，南京大屠杀死难同胞纪念日(1937年)
+`);
 }
 
 function PublicSacrificeDay(){
@@ -9,12 +22,12 @@ function PublicSacrificeDay(){
     //2008年5月12日，四川汶川地震
     //1937年7月7日,七七事变 又称卢沟桥事变
     //2010年8月7日，甘肃舟曲特大泥石流
-	  //8月14日，世界慰安妇纪念日
+	//8月14日，世界慰安妇纪念日
     //1976年9月9日，毛主席逝世
   	//1931年9月18日，九一八事变
   	//烈士纪念日为每年9月30日
     //1950年10月25日，抗美援朝纪念日
-    //1937年12月13日，南京大屠杀
+    //1937年12月13日，南京大屠杀死难同胞纪念日
     var currentdate = new Date();
     var str = "";
     var mm = currentdate.getMonth()+1;
