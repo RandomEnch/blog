@@ -67,9 +67,9 @@
     
     <category term="Python" scheme="https://blog.randomench.top/tags/Python/"/>
     
-    <category term="爬虫" scheme="https://blog.randomench.top/tags/%E7%88%AC%E8%99%AB/"/>
-    
     <category term="HTML" scheme="https://blog.randomench.top/tags/HTML/"/>
+    
+    <category term="爬虫" scheme="https://blog.randomench.top/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
@@ -178,13 +178,13 @@
     
     <category term="工具" scheme="https://blog.randomench.top/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="Galgame" scheme="https://blog.randomench.top/tags/Galgame/"/>
-    
-    <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
-    
     <category term="网页" scheme="https://blog.randomench.top/tags/%E7%BD%91%E9%A1%B5/"/>
     
+    <category term="Galgame" scheme="https://blog.randomench.top/tags/Galgame/"/>
+    
     <category term="音游" scheme="https://blog.randomench.top/tags/%E9%9F%B3%E6%B8%B8/"/>
+    
+    <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -211,11 +211,11 @@
     <category term="游戏" scheme="https://blog.randomench.top/categories/%E6%B8%B8%E6%88%8F/"/>
     
     
-    <category term="教程" scheme="https://blog.randomench.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Galgame" scheme="https://blog.randomench.top/tags/Galgame/"/>
     
     <category term="游戏" scheme="https://blog.randomench.top/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="教程" scheme="https://blog.randomench.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
