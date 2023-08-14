@@ -3,7 +3,7 @@
   height: 130px !important;
 }
 /* 自定义twikoo评论输入框高度 */
-.textarea .el-textarea__inner {
+#twikoo > div.tk-comments > div.tk-submit > div:nth-child(1) > div.tk-col > div.tk-input.el-textarea > textarea {
   min-height: 120px !important;
 }
 /* 输入评论时自动隐藏输入框背景图片 */
