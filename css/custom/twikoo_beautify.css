@@ -211,3 +211,7 @@
     filter: none;
   }
 }
+
+.tk-input .el-textarea__inner {
+	min-height: 130px;
+}
