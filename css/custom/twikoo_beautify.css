@@ -1,7 +1,10 @@
 /* 自定义twikoo评论输入框高度 */
 .tk-input[data-v-619b4c52] .el-textarea__inner {
-  min-height: 120px !important;
   height: 130px !important;
+}
+/* 自定义twikoo评论输入框高度 */
+.textarea .el-textarea__inner {
+  min-height: 120px !important;
 }
 /* 输入评论时自动隐藏输入框背景图片 */
 .tk-input[data-v-619b4c52] .el-textarea__inner:focus {
