@@ -506,16 +506,6 @@
 /* 必须配置(把下面 pre[class*="language-"]的color和background复製到这里来) */
 
 /* 代码框工具栏 (如果你关掉了copy、lang和shrink,可不用配置这个) */
-#article-container figure.highlight .highlight-tools {
-  color: #a9a9a9;
-  background: var(--hltools-bg);
-}
-#article-container figure.highlight .highlight-tools .code-lang {
-  left: 50% !important;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  font-size: 0.7rem;
-}
 /* 代码框行数(如果已经关掉line_number,可以不用配置这个) */
 #article-container pre[class*='language-'].line-numbers .line-numbers-rows > span:before {
   color: var(--hlnumber-color);
@@ -528,65 +518,6 @@
   background-color: #49b1f5 !important;
   background-image: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 0.4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, 0.4) 0, hsla(0, 0%, 100%, 0.4) 75%, transparent 0, transparent) !important;
   border-radius: 2em !important;
-}
-
-[class*='language-'] .namespace {
-  opacity: 0.7;
-}
-.token.id {
-  font-weight: bold;
-}
-.token.important {
-  font-weight: bold;
-}
-.token.atrule,
-.token.boolean,
-.token.constant,
-.token.function,
-.token.important,
-.token.id,
-.token.symbol,
-.token.keyword {
-  color: #7c4dff !important;
-}
-.token.class-name,
-.token.regex {
-  color: #6182b8 !important;
-}
-.token.unit,
-.token.hexcode,
-.token.number {
-  color: #f76d47 !important;
-}
-.token.prolog,
-.token.doctype {
-  color: #aabfc9 !important;
-}
-.token.property,
-.token.punctuation,
-.token.inserted,
-.token.operator,
-.token.char,
-.token.class,
-.token.cdata,
-.token.builtin,
-.token.attr-name {
-  color: #39adb5 !important;
-}
-.token.pseudo-element,
-.token.string,
-.token.pseudo-class,
-.token.attr-value,
-.token.attribute {
-  color: #f6a434 !important;
-}
-.token.url,
-.token.variable,
-.token.selector,
-.token.deleted,
-.token.entity,
-.token.tag {
-  color: #e53935 !important;
 }
 /*
  * @description: 标签外挂相关
