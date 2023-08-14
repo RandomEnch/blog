@@ -1252,16 +1252,7 @@ details {
   border: 1px solid #f6f6f6;
   line-height: 1.3;
 }
-details > summary {
-  cursor: pointer;
-  padding: 16px !important;
-  margin: -16px;
-  border-radius: 4px;
-  color: rgba(85, 85, 85, 0.7);
-  font-size: 0.775rem;
-  font-weight: 700;
-  position: relative;
-}
+
 details > summary > h1,
 details > summary > h2,
 details > summary > h3,
