@@ -1239,20 +1239,6 @@ div.tabs details {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-details {
-  display: block;
-  padding: 16px;
-  margin: 0.5rem 0;
-  border-radius: 4px;
-  font-size: 0.7375rem;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  border: 1px solid #f6f6f6;
-  line-height: 1.3;
-}
-
 details > summary > h1,
 details > summary > h2,
 details > summary > h3,
