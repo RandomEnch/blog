@@ -212,6 +212,6 @@
   }
 }
 
-.tk-input .el-textarea__inner {
+element.style {
 	min-height: 130px;
 }
