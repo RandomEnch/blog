@@ -2,7 +2,36 @@ document.addEventListener('DOMContentLoaded', function () {
   let headerContentWidth, $nav
   let mobileSidebarOpen = false
 
+  const adjustMenu = init => {
+    const getAllWidth = ele => {
+      let width = 0
+      ele.length && Array.from(ele).forEach(i => { width += i.offsetWidth })
+      return width
+    }
 
+    if (init) {
+      const blogInfoWidth = getAllWidth(document.querySelector('#blog-info > a').children)
+      const menusWidth = getAllWidth(document.getElementById('menus').children)
+      headerContentWidth = blogInfoWidth + menusWidth
+      $nav = document.getElementById('nav')
+    }
+
+    let hideMenuIndex = ''
+    if (window.innerWidth <= 768) hideMenuIndex = true
+    else hideMenuIndex = headerContentWidth > $nav.offsetWidth - 120
+
+    if (hideMenuIndex) {
+      $nav.classList.add('hide-menu')
+    } else {
+      $nav.classList.remove('hide-menu')
+    }
+  }
+
+  // 初始化header
+  const initAdjust = () => {
+    adjustMenu(true)
+    $nav.classList.add('show')
+  }
 
   // sidebar menus
   const sidebarFn = {
@@ -744,7 +773,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const unRefreshFn = function () {
     window.addEventListener('resize', () => {
-      // adjustMenu(false)
+      adjustMenu(false)
       btf.isHidden(document.getElementById('toggle-menu')) && mobileSidebarOpen && sidebarFn.close()
     })
 
@@ -763,7 +792,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   window.refreshFn = function () {
-    // initAdjust()
+    initAdjust()
 
     if (GLOBAL_CONFIG_SITE.isPost) {
       GLOBAL_CONFIG.noticeOutdate !== undefined && addPostOutdateNotice()
