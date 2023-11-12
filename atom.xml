@@ -6,7 +6,7 @@
   <link href="https://blog.randomench.top/atom.xml" rel="self"/>
   
   <link href="https://blog.randomench.top/"/>
-  <updated>2023-03-20T13:03:45.038Z</updated>
+  <updated>2023-08-13T08:13:30.881Z</updated>
   <id>https://blog.randomench.top/</id>
   
   <author>
@@ -15,35 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>手机的抓包</title>
-    <link href="https://blog.randomench.top/article/4787011d9364/"/>
-    <id>https://blog.randomench.top/article/4787011d9364/</id>
-    <published>2022-09-22T00:00:00.000Z</published>
-    <updated>2023-03-20T13:03:45.038Z</updated>
-    
-    <content type="html"><![CDATA[<h1>手机的抓包</h1><p>手机抓取青年大学习cookie</p><h2 id="软件安装配置">软件安装配置</h2><div class="tabs" id="install"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#install-1">iOS</button></li><li class="tab"><button type="button" data-href="#install-2">Android</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="install-1"><p>App Store 下载 <a href="https://apps.apple.com/cn/app/stream/id1312141691">Stream</a><br>下载完打开点击开始抓包，添加VPN配置选择允许，再安装证书<br>点击安装CA证书，跳转浏览器后选择允许<br>打开设置-通用-VPN与设备管理可以看到配置描述文件中多出一个证书<br>点击后点右上角的安装，输完密码继续点右上角完成，跳转回软件点信任证书<br>打开设置-通用-关于本机-证书信任设置<br>找到stream开头的证书并将按钮打开<br>返回软件到主页，点击停止抓包，安装完成</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="install-2"><p>下载 <a href="https://file-1305871479.cos.ap-nanjing.myqcloud.com/file/HttpCanary.apk">HttpCanary</a><br>打开后划到底部，同意条款<br>点击下方的配置，允许，点安装<br>完成后点右上角的跳过，安装完成</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="抓包">抓包</h2><div class="tabs" id="catch"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#catch-1">iOS</button></li><li class="tab"><button type="button" data-href="#catch-2">Android</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="catch-1"><p>事先打开微信找到青年大学习公众号<br>回到软件，开始抓包<br>打开微信，进入青年大学习网页<br>回到软件，停止抓包<br>点抓包历史，点击记录，点击以 “GET <a href="https://service.jiangsugqt.org">https://service.jiangsugqt.org</a>” 开头的记录<br>点击请求，在下方请求头部找到laravel_session<br>复制等号后面的字符，私发机器人“青年大学习绑定 [复制的内容]”<br><img src="/img/packet/ios.png" alt="ios"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="catch-2"><p>事先打开微信找到青年大学习公众号<br>回到软件，点右下角小飞机<br>打开微信，进入青年大学习网页<br>回到软件，点右下角小飞机<br>点击以 “GET <a href="https://service.jiangsugqt.org">https://service.jiangsugqt.org</a>” 开头的记录<br>找到cookie并点击<br>复制laravel_session，私发机器人“青年大学习绑定 [复制的内容]”<br><img src="/img/packet/Android.png" alt="Android"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;手机的抓包&lt;/h1&gt;
-&lt;p&gt;手机抓取青年大学习cookie&lt;/p&gt;
-&lt;h2 id=&quot;软件安装配置&quot;&gt;软件安装配置&lt;/h2&gt;
-&lt;div class=&quot;tabs&quot; id=&quot;install&quot;&gt;&lt;ul class=&quot;nav-tabs&quot;&gt;&lt;li class=&quot;tab active&quot;</summary>
-      
-    
-    
-    
-    <category term="实用" scheme="https://blog.randomench.top/categories/%E5%AE%9E%E7%94%A8/"/>
-    
-    
-    <category term="工具" scheme="https://blog.randomench.top/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="实用" scheme="https://blog.randomench.top/tags/%E5%AE%9E%E7%94%A8/"/>
-    
-  </entry>
   
   <entry>
     <title>Python中使用lxml分析HTML</title>
@@ -65,11 +36,11 @@
     
     <category term="Python" scheme="https://blog.randomench.top/tags/Python/"/>
     
-    <category term="HTML" scheme="https://blog.randomench.top/tags/HTML/"/>
-    
     <category term="编程" scheme="https://blog.randomench.top/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="爬虫" scheme="https://blog.randomench.top/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="HTML" scheme="https://blog.randomench.top/tags/HTML/"/>
     
   </entry>
   
@@ -94,11 +65,11 @@
     <category term="编程" scheme="https://blog.randomench.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
+    <category term="实用" scheme="https://blog.randomench.top/tags/%E5%AE%9E%E7%94%A8/"/>
+    
     <category term="编程" scheme="https://blog.randomench.top/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="前端" scheme="https://blog.randomench.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="实用" scheme="https://blog.randomench.top/tags/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="live2d" scheme="https://blog.randomench.top/tags/live2d/"/>
     
@@ -124,11 +95,11 @@
     
     <category term="Python" scheme="https://blog.randomench.top/tags/Python/"/>
     
+    <category term="实用" scheme="https://blog.randomench.top/tags/%E5%AE%9E%E7%94%A8/"/>
+    
     <category term="编程" scheme="https://blog.randomench.top/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="爬虫" scheme="https://blog.randomench.top/tags/%E7%88%AC%E8%99%AB/"/>
-    
-    <category term="实用" scheme="https://blog.randomench.top/tags/%E5%AE%9E%E7%94%A8/"/>
     
   </entry>
   
