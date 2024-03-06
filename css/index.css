@@ -1419,20 +1419,6 @@ body {
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-*::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-*::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-color);
-}
-*::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-color) transparent;
-}
 input::placeholder {
   color: var(--font-color);
 }
